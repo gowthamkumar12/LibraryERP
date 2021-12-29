@@ -1,4 +1,4 @@
-package com.spark.lms.controller;
+package com.library.erp.controller;
 
 import java.util.List;
 
@@ -15,9 +15,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import com.spark.lms.common.Constants;
-import com.spark.lms.model.Member;
-import com.spark.lms.service.MemberService;
+import com.library.erp.common.Constants;
+import com.library.erp.model.Member;
+import com.library.erp.service.MemberService;
 
 @Controller
 @RequestMapping(value = "/member")

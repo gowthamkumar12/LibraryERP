@@ -1,4 +1,4 @@
-package com.spark.lms.restcontroller;
+package com.library.erp.restcontroller;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.spark.lms.model.Member;
-import com.spark.lms.service.MemberService;
+import com.library.erp.model.Member;
+import com.library.erp.service.MemberService;
 
 @RestController
 @RequestMapping(value = "/rest/member")

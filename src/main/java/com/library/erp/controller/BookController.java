@@ -1,4 +1,4 @@
-package com.spark.lms.controller;
+package com.library.erp.controller;
 
 import java.util.List;
 
@@ -14,10 +14,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import com.spark.lms.model.Book;
-import com.spark.lms.model.Category;
-import com.spark.lms.service.BookService;
-import com.spark.lms.service.CategoryService;
+import com.library.erp.model.Book;
+import com.library.erp.model.Category;
+import com.library.erp.service.BookService;
+import com.library.erp.service.CategoryService;
 
 @Controller
 @RequestMapping(value = "/book")

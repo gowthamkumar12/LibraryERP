@@ -1,4 +1,4 @@
-package com.spark.lms;
+package com.library.erp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.spark.lms.model;
+package com.library.erp.model;
 
 import java.io.Serializable;
 import java.util.Date;

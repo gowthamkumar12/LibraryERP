@@ -1,4 +1,4 @@
-package com.spark.lms.confguration;
+package com.library.erp.confguration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

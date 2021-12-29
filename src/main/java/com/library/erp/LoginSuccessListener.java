@@ -1,4 +1,4 @@
-package com.spark.lms;
+package com.library.erp;
 
 import javax.servlet.http.HttpSession;
 
@@ -8,7 +8,7 @@ import org.springframework.security.authentication.event.AuthenticationSuccessEv
 import org.springframework.security.core.userdetails.User;
 import org.springframework.stereotype.Component;
 
-import com.spark.lms.service.UserService;
+import com.library.erp.service.UserService;
 
 @Component
 public class LoginSuccessListener implements ApplicationListener<AuthenticationSuccessEvent> {

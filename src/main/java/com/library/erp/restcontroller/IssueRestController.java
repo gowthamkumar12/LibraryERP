@@ -1,4 +1,4 @@
-package com.spark.lms.restcontroller;
+package com.library.erp.restcontroller;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -15,15 +15,15 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.spark.lms.common.Constants;
-import com.spark.lms.model.Book;
-import com.spark.lms.model.Issue;
-import com.spark.lms.model.IssuedBook;
-import com.spark.lms.model.Member;
-import com.spark.lms.service.BookService;
-import com.spark.lms.service.IssueService;
-import com.spark.lms.service.IssuedBookService;
-import com.spark.lms.service.MemberService;
+import com.library.erp.common.Constants;
+import com.library.erp.model.Book;
+import com.library.erp.model.Issue;
+import com.library.erp.model.IssuedBook;
+import com.library.erp.model.Member;
+import com.library.erp.service.BookService;
+import com.library.erp.service.IssueService;
+import com.library.erp.service.IssuedBookService;
+import com.library.erp.service.MemberService;
 
 @RestController
 @RequestMapping(value = "/rest/issue")

@@ -1,4 +1,4 @@
-package com.spark.lms.service;
+package com.library.erp.service;
 
 import java.util.Date;
 import java.util.List;
@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.spark.lms.model.User;
-import com.spark.lms.repository.UserRepository;
+import com.library.erp.model.User;
+import com.library.erp.repository.UserRepository;
 
 @Service
 public class UserService {

@@ -1,4 +1,4 @@
-package com.spark.lms.service;
+package com.library.erp.service;
 
 import java.util.Date;
 import java.util.List;
@@ -6,10 +6,10 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.spark.lms.common.Constants;
-import com.spark.lms.model.Book;
-import com.spark.lms.model.Category;
-import com.spark.lms.repository.BookRepository;
+import com.library.erp.common.Constants;
+import com.library.erp.model.Book;
+import com.library.erp.model.Category;
+import com.library.erp.repository.BookRepository;
 
 @Service
 public class BookService {

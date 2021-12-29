@@ -1,4 +1,4 @@
-package com.spark.lms.controller;
+package com.library.erp.controller;
 
 import java.util.List;
 
@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.spark.lms.common.Constants;
-import com.spark.lms.model.Category;
-import com.spark.lms.service.CategoryService;
-import com.spark.lms.service.IssueService;
+import com.library.erp.common.Constants;
+import com.library.erp.model.Category;
+import com.library.erp.service.CategoryService;
+import com.library.erp.service.IssueService;
 
 @Controller
 @RequestMapping(value = "/issue")
