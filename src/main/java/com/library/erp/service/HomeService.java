@@ -24,7 +24,7 @@ public class HomeService {
 		Map<String, Long> map = new HashMap<String, Long>();
 		map.put("totalMembers", memberService.getTotalCount());
 		map.put("totalStudents", memberService.getStudentsCount());
-		map.put("totalParents", memberService.getParentsCount());
+		map.put("totalStaff", memberService.getStaffCount());
 		map.put("totalCategories", categoryService.getTotalCount());
 		map.put("totalBooks", bookService.getTotalCount());
 		map.put("totalIssuedBooks", bookService.getTotalIssuedBooks());

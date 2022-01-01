@@ -8,10 +8,10 @@
 		<version>2.1.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.spark.lms</groupId>
-	<artifactId>spark-lms</artifactId>
+	<groupId>com.library.erp</groupId>
+	<artifactId>library-erp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spark-lms</name>
+	<name>library-erp</name>
 	<description>Library Management System in Spring boot</description>
 
 	<properties>

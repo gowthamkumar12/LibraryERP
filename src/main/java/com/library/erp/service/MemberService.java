@@ -23,8 +23,8 @@ public class MemberService {
 		return memberRepository.count();
 	}
 	
-	public Long getParentsCount() {
-		return memberRepository.countByType(Constants.MEMBER_PARENT);
+	public Long getStaffCount() {
+		return memberRepository.countByType(Constants.MEMBER_STAFF);
 	}
 	
 	public Long getStudentsCount() {
